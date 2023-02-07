@@ -4,7 +4,7 @@ import './App.css';
 function Header() {
   return (
     <header style={headerStyles}>
-      <h1>Header</h1>
+      <h1 className='head'>Header</h1>
     </header>
   );
 }
@@ -12,14 +12,14 @@ function Header() {
 function Body() {
   return (
     <main style={bodyStyles}>
-      <h1>Body</h1>
+      <h1 className='bodeS'>Body</h1>
     </main>
   );
 }
 
 function Footer() {
   return (
-    <footer style={footerStyles}>
+    <footer className='footerS' style={footerStyles}>
       <h1>Footer</h1>
     </footer>
   );
